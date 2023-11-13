@@ -7,7 +7,7 @@ export default function Cabecalho() {
     return(
     <header className='cabecalho'>
         <nav>   
-            <Link href="/">LOGOUT</Link>
+            <Link className='link' href="/">LOGOUT</Link>
             <div className='menu-sections'>
                 <Link className='link' href="/produtos/calca">HOME</Link>
                 <Link className='link' href="/produtos/camisa">SOBRE NOS</Link>

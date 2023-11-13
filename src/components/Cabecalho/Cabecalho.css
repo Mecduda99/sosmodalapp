@@ -19,3 +19,6 @@
 .link {
     padding: 10px;
 }
+.link:hover {
+    font-weight: bold;
+}
