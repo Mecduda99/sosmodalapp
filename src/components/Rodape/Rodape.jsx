@@ -1,36 +1,39 @@
 import React from 'react'
 import Image from 'next/image'
+import './Rodape.css'
 
 export default function Rodape() {
     return (
-        <>
-            <h1>Integrantes</h1>
+        <footer>
+            <div className='integrantes-lista'>
+                <h1 className="titulo-vermelho">Integrantes</h1>
 
-            <div>
-                <p>Maria Eduarda</p>
-                <p>Maria Eduarda</p>
-                <p>Maria Eduarda</p>
-                <p>Maria Eduarda</p>
+                <div className="integrantes">
+                    <p>Maria Eduarda RM</p>
+                    <p>Maria Eduarda RM</p>
+                    <p>Maria Eduarda RM</p>
+                    <p>Maria Eduarda RM</p>
+                </div>
             </div>
 
             <div className='redes-sociais'>
                 <div>
-                    <Image src="" alt="Picture of the author"></Image>
+                    <Image className='img' src="" alt="Picture of the author"></Image>
                     <p>titulo da rede</p>
                 </div>
                 <div>
-                    <Image src="" alt="Picture of the author"></Image>
+                    <Image className='img' src="" alt="Picture of the author"></Image>
                     <p>titulo da rede</p>
                 </div>
                 <div>
-                    <Image src="" alt="Picture of the author"></Image>
+                    <Image className='img' src="" alt="Picture of the author"></Image>
                     <p>titulo da rede</p>
                 </div>
                 <div>
-                    <Image src="" alt="Picture of the author"></Image>
+                    <Image className='img' src="" alt="Picture of the author"></Image>
                     <p>titulo da rede</p>
                 </div>
             </div>
-        </>
+        </footer>
     )
 }
