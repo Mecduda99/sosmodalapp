@@ -1,3 +1,8 @@
+## 🖌 FIGMA: 
+https://www.figma.com/file/BArGf6IRGwVTHiNpJahAbW/Untitled?type=design&node-id=0-1&mode=design&t=VAXn7CFXrG1FkxZa-0
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
