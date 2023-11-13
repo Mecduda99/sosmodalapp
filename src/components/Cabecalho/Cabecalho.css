@@ -1,0 +1,21 @@
+.cabecalho nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 4.5rem;
+    /* background-color: aqua; */
+    border-bottom: 1px solid #464646;
+    color: #111040;
+}
+/* .cabecalho nav Link {
+    padding-top: ;
+} */
+.menu-sections {
+    display: flex;
+    justify-content: space-between;
+}
+.link {
+    padding: 10px;
+}
