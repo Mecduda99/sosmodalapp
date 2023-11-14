@@ -19,19 +19,19 @@ export default function Rodape() {
             <div className='redes-sociais'>
                 <div>
                     <Image className='img' src="" alt="Picture of the author"></Image>
-                    <p>titulo da rede</p>
+                    <p>LinkedIn</p>
                 </div>
                 <div>
                     <Image className='img' src="" alt="Picture of the author"></Image>
-                    <p>titulo da rede</p>
+                    <p>Instagram</p>
                 </div>
                 <div>
                     <Image className='img' src="" alt="Picture of the author"></Image>
-                    <p>titulo da rede</p>
+                    <p>E-mail</p>
                 </div>
                 <div>
                     <Image className='img' src="" alt="Picture of the author"></Image>
-                    <p>titulo da rede</p>
+                    <p>WhatsApp</p>
                 </div>
             </div>
         </footer>
