@@ -1,11 +1,17 @@
 "use client";
 import Link from 'next/link';
 import "./Cabecalho.css";
-import { useState } from 'react'; 
+import { useEffect, useState } from 'react';
 
 export default function Cabecalho() {
-    const user = JSON.parse(sessionStorage.getItem("user-info"));
-    const [usuario] = useState(user);
+  const [usuario, setUsuario] = useState(null);
+
+    useEffect(() => {
+        const user = JSON.parse(sessionStorage.getItem("user-info"));
+        setUsuario(user);
+    }, []);
+
+    // const user = JSON.parse(sessionStorage.getItem("user-info"));
   
     const handleLogout = () => {
       sessionStorage.removeItem("token-user");
