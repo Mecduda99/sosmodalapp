@@ -4,12 +4,12 @@ import "./Cabecalho.css";
 import { useState } from 'react'; 
 
 export default function Cabecalho() {
-    const user = JSON.parse(window.sessionStorage.getItem("user-info"));
+    const user = JSON.parse(sessionStorage.getItem("user-info"));
     const [usuario] = useState(user);
   
     const handleLogout = () => {
-      window.sessionStorage.removeItem("token-user");
-      window.sessionStorage.removeItem("user-info");
+      sessionStorage.removeItem("token-user");
+      sessionStorage.removeItem("user-info");
       window.location.href = "/login";
     }
 
