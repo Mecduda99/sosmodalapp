@@ -9,10 +9,8 @@ export default function Rodape() {
                 <h1 className="titulo-vermelho">Integrantes</h1>
 
                 <div className="integrantes">
-                    <p>Maria Eduarda RM</p>
-                    <p>Maria Eduarda RM</p>
-                    <p>Maria Eduarda RM</p>
-                    <p>Maria Eduarda RM</p>
+                    <p>Maria Eduarda RM98760</p>
+                    <p>Leonardo Buonanno RM98315</p>
                 </div>
             </div>
 

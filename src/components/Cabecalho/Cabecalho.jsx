@@ -9,9 +9,9 @@ export default function Cabecalho() {
         <nav>   
             <Link className='link' href="/">LOGOUT</Link>
             <div className='menu-sections'>
-                <Link className='link' href="/produtos/calca">HOME</Link>
-                <Link className='link' href="/produtos/camisa">SOBRE NOS</Link>
-                <Link className='link' href="/produtos/meia">FALE CONOSCO</Link>
+                <Link className='link' href="/">HOME</Link>
+                <Link className='link' href="/secoes/sobre">SOBRE NOS</Link>
+                <Link className='link' href="/secoes/faleconosco">FALE CONOSCO</Link>
             </div>
 
             <div>
